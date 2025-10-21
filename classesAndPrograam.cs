@@ -50,7 +50,9 @@ namespace classesAndPrograam
 
         static void Main(string[] args)
         {
-            Student std1 = new Student();
+            Student std1 = new Student(18, 20002, 1000);
+             // Student std1 = new Student(22, 20002);
+             // Student std1 = new Student();
             std1.getdata();
              Console.ReadLine();
         }
