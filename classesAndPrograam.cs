@@ -15,7 +15,7 @@ namespace classesAndPrograam
         // }
         public int salary;
         public int age;
-        public string distance;
+        public string distance ="";
         public int id;
         // Parameterized Constructor
         // public Student(string name, int age)
@@ -55,7 +55,7 @@ namespace classesAndPrograam
             this.salary = salary;
             this.id = id;
         }
-        public Student(Student S,string distance)
+        public Student(Student S,String distance)
         {
             this.age = S.age;
             this.salary = S.salary;
