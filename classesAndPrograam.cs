@@ -15,7 +15,7 @@ namespace classesAndPrograam
         // }
         public string name;
         public int age; 
-
+        // Parameterized Constructor
         public Student(string name, int age)
         {
             this.name = name;
@@ -23,14 +23,14 @@ namespace classesAndPrograam
         }
         public void getdata()
         {
-            System.Console.WriteLine("Student name is :{0}", name);
-            System.Console.WriteLine("Student age is :{0}",age);
+            Console.WriteLine("Student name is :{0}", name);
+            Console.WriteLine("Student age is :{0}",age);
         }
 
         static void Main(string[] args)
         {
             Student std1= new Student("Qamar",22);
-
+            std1.getdata();
         }
     }
 }
