@@ -4,18 +4,32 @@
 // Console.WriteLine("Hello, World!");
 namespace classesAndPrograam
 {
-    //Constructor in class
+    // Constructor in class
     class Student
     {
-        
-        public Student()
+        // Defult Constructor
+        // public Student()
+        // {
+
+        //     System.Console.WriteLine("DefultConstructor is called");
+        // }
+        public string name;
+        public int age; 
+
+        public Student(string name, int age)
         {
-            System.Console.WriteLine("DefultConstructor is called");
+            this.name = name;
+            this.age = age;
+        }
+        public void getdata()
+        {
+            System.Console.WriteLine("Student name is :{0}", name);
+            System.Console.WriteLine("Student age is :{0}",age);
         }
 
         static void Main(string[] args)
         {
-            Student std1= new Student();
+            Student std1= new Student("Qamar",22);
 
         }
     }
