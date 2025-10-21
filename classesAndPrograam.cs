@@ -16,7 +16,7 @@ namespace classesAndPrograam
         public int salary;
         public int age; 
 
-        public int id;  
+        public int id;
         // Parameterized Constructor
         // public Student(string name, int age)
         // {
@@ -28,13 +28,15 @@ namespace classesAndPrograam
         public Student()
         {
             Console.WriteLine($"deful constructor is invoked");
-            
+
         }
+        // Parameterized Constructor (2 parameters)
         public Student(int age, int salary)
         {
             this.age = age;
             this.salary = salary;
         }
+         // Parameterized Constructor (3 parameters)
         public Student(int age, int salary,int id)
         {
             this.age = age;
@@ -45,16 +47,18 @@ namespace classesAndPrograam
         {
             Console.WriteLine("Student salary is :{0}", salary);
             Console.WriteLine("Student age is :{0}", age);
-            Console.WriteLine("student bonus is:{0}",id);
+            Console.WriteLine("student id is:{0}",id);
         }
+
 
         static void Main(string[] args)
         {
+            Student std3 = new Student();
             Student std1 = new Student(18, 20002, 1000);
-             // Student std1 = new Student(22, 20002);
-             // Student std1 = new Student();
+            Student std2 = new Student(22, 20002);
+            
             std1.getdata();
-             Console.ReadLine();
+            Console.ReadLine();
         }
            
     }
