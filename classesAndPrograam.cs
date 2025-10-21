@@ -29,8 +29,10 @@ namespace classesAndPrograam
 
         static void Main(string[] args)
         {
-            Student std1= new Student("Qamar",22);
+            Student std1 = new Student("Qamar", 22);
             std1.getdata();
+             Console.ReadLine();
         }
+           
     }
 }
