@@ -12,3 +12,4 @@ I:\C#\Classes and Objects\obj\Debug\net9.0\refint\Classes and Objects.dll
 I:\C#\Classes and Objects\obj\Debug\net9.0\Classes and Objects.pdb
 I:\C#\Classes and Objects\obj\Debug\net9.0\Classes and Objects.genruntimeconfig.cache
 I:\C#\Classes and Objects\obj\Debug\net9.0\ref\Classes and Objects.dll
+I:\C#\Classes and Objects\obj\Debug\net9.0\Classes and Objects.sourcelink.json
